@@ -1,0 +1,45 @@
+<h2>Example 1-a: <span class="code">ngIf</span></h2>
+<div class="code"> firstVal = {{ firstVal }} </div>
+<button mat-raised-button (click)="firstVal = !firstVal" class="primary">
+  Toggle Value
+</button>
+<div *ngIf="firstVal" class="result">
+  <p>This div is displayed when firstVal evaluates to true</p>
+</div>
+
+<!-- <h2>Example 1-b: <span class="code">ngIf</span></h2>
+<div class="code"> user$ = {{ user$ | async | json }} </div>
+<div class="auth">
+  <span *ngIf="(user$ | async) === null">
+    <button mat-raised-button (click)="signIn()" class="primary">Sign In</button>
+  </span>
+  <span *ngIf="(user$ | async) as user">
+    Welcome: {{ user.userName }}
+    <button mat-stroked-button (click)="signOut()" class="secondary">Sign Out</button>
+  </span>
+</div> -->
+
+<!-- <h2>Example 1-c: <span class="code">ngIf</span></h2>
+<div class="code"> user$ = {{ user$ | async | json }} </div>
+<div class="auth">
+  <span *ngIf="(user$ | async) as user; else signedOut">
+    Welcome: {{ user.userName }}
+    <button mat-stroked-button (click)="signOut()" class="primary">Sign Out</button>
+  </span>
+  <ng-template #signedOut>
+    <button mat-raised-button (click)="signIn()" class="secondary">Sign In</button>
+  </ng-template>
+</div> -->
+ 
+<!-- <h2>Example 1-d: <span class="code">ngIf</span></h2>
+<div class="code"> user$ = {{ user$ | async | json }} </div>
+<div class="auth">
+  <div *ngIf="(user$ | async) as user; then signedIn; else signedOut"></div>
+  <ng-template #signedIn>
+    <button mat-stroked-button (click)="signOut()" class="primary">Sign Out</button>
+  </ng-template>
+  <ng-template #signedOut>
+    <button mat-raised-button (click)="signIn()" class="secondary">Sign In</button>
+  </ng-template>
+</div> -->
+

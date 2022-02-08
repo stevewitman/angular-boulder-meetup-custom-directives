@@ -1,0 +1,39 @@
+button {
+  display: inline-block;
+  border: none;
+  padding: 8px;
+  margin: 0;
+  text-decoration: none;
+  background: lightgray;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 5px;
+}
+
+.btn-success {
+  background-color: #A1C92D;
+  color: white;
+}
+
+.btn-accent {
+  background-color: #ffa010;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #7A4BA2;
+  color: white;
+}
+
+.btn-large {
+  padding: 18px;
+  font-size: 24px;
+  font-weight: bold;
+}

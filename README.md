@@ -1,27 +1,22 @@
-# AngularBoulderMeetupCustomDireectives
+RESOURCES
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+custom attribute directive - setBackground (using attribute selector)
+https://www.youtube.com/watch?v=DxfAEhdOl_0 [procademy]
 
-## Development server
+custom attribute directive - numberOnly (from keyboard or copy/paste)
+https://www.youtube.com/watch?v=qH9RHHmzvIA [Angular All]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+custom directive - hideForRoles
+https://www.youtube.com/watch?v=1lOA3Opkw3o [Adnan Halilovic]
 
-## Code scaffolding
+custom directive - holdToDelete
+https://www.youtube.com/watch?v=kl-UMCHpEsw [Fireship]
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+custom directive - hasRole
+https://www.youtube.com/watch?v=pUra6iPzhFA [Code Shots With Profanis]
 
-## Build
+ngFor local variables (index, count, first, last, even, odd)
+https://www.youtube.com/watch?v=LtT01ZCHRjk [Programming with Mosh]
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ngFor trackBy function
+https://www.youtube.com/watch?v=8hj3ViywQZk [Fun Of Heuristic]

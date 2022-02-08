@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-boulder-meetup-custom-direectives';
+  title = 'angular-boulder-meetup-custom-directives';
 }

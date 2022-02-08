@@ -1,0 +1,38 @@
+<h2>Example 4: <span class="code">ngClass</span></h2>
+<div>
+  <button>
+    Buy Now
+  </button>
+</div>
+<br>
+<div>
+  <button [ngClass]="'btn-success'">
+    Buy Now
+  </button>
+</div>
+<br>
+<div>
+  <button [ngClass]="['btn-success', 'btn-large']">
+    Buy Now
+  </button>
+</div>
+<br>
+<div>
+  <div class="code"> flashSale = {{ flashSale }} </div>
+  <button (click)="flashSale = !flashSale">
+    Toggle
+  </button>
+  <button [ngClass]="{'btn-accent': flashSale} ">
+    Buy Now
+  </button>
+</div>
+<br>
+<div>
+  <div class="code"> flashSale = {{ flashSale }} </div>
+  <button (click)="flashSale = !flashSale">
+    Toggle
+  </button>
+  <button [ngClass]="buttonClass()">
+    Buy Now
+  </button>
+</div>
